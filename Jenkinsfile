@@ -6,7 +6,7 @@ pipeline{
         timeout(time:2 ,unit:'MINUTES')
         disableConcurrentBuilds()
     }
-    envionment {
+    environment {
         appVersion=''
         project= 'expense'
         environment='dev'
