@@ -25,9 +25,9 @@ pipeline{
         stage('dependencies'){
             steps{
                 script{
-                    sh "'"
+                    sh """
                     npm install
-                    "'"
+                    """
                 }
             }
 
